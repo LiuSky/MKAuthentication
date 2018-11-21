@@ -8,12 +8,13 @@
 
 Pod::Spec.new do |s|
   s.name             = 'MKAuthentication'
-  s.version          = '0.1.0'
+  s.version          = '0.2.0'
   s.summary          = 'TouchID And FaceID'
   s.homepage         = 'https://github.com/LiuSky/MKAuthentication'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Sky' => '327847390@qq.com' }
   s.source           = { :git => 'https://github.com/LiuSky/MKAuthentication.git', :tag => s.version.to_s }
+  s.swift_version         = '4.2'
   s.ios.deployment_target = '9.0'
   s.source_files = 'MKAuthentication/Classes/**/*'
 end
