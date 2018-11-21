@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'MKAuthentication_Example' do
+  pod 'MKAuthentication', :path => '../'
+
+  target 'MKAuthentication_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

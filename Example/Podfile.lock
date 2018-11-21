@@ -1,0 +1,16 @@
+PODS:
+  - MKAuthentication (0.1.0)
+
+DEPENDENCIES:
+  - MKAuthentication (from `../`)
+
+EXTERNAL SOURCES:
+  MKAuthentication:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  MKAuthentication: c890bf5447ae2a7c51a95f1d8fd4eb3fee87f660
+
+PODFILE CHECKSUM: 311b6ad7f70fac4c86f497da996bc35fbe136b19
+
+COCOAPODS: 1.6.0.beta.1
